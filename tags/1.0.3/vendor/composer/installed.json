@@ -1,0 +1,40 @@
+{
+    "packages": [
+        {
+            "name": "automattic/wxr-generator",
+            "version": "dev-trunk",
+            "version_normalized": "dev-trunk",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Automattic/wxr-generator.git",
+                "reference": "ff09be8ce477c8a9fd6efe6cc518adf8a2c2d923"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Automattic/wxr-generator/zipball/ff09be8ce477c8a9fd6efe6cc518adf8a2c2d923",
+                "reference": "ff09be8ce477c8a9fd6efe6cc518adf8a2c2d923",
+                "shasum": ""
+            },
+            "time": "2021-05-03T09:00:59+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "A library that helps with the creation of WXR files",
+            "support": {
+                "source": "https://github.com/Automattic/wxr-generator/tree/trunk",
+                "issues": "https://github.com/Automattic/wxr-generator/issues"
+            },
+            "install-path": "../automattic/wxr-generator"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
